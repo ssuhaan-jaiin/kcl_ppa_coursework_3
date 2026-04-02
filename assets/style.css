@@ -1,0 +1,327 @@
+/* ===================== GENERAL ===================== */
+
+/* Main background */
+.border-pane {
+    -fx-background-color: #1a1a2e;
+}
+
+/* VBox panels (welcome side panels) */
+.side-panel {
+    -fx-background-color: #16213e;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+}
+
+/* ===================== LABELS ===================== */
+
+/* Regular labels */
+.label {
+    -fx-text-fill: #c0c0c0;
+    -fx-font-size: 13px;
+}
+
+/* Heading labels */
+.heading-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0;
+}
+
+/* Title label (welcome panel) */
+.title-label {
+    -fx-font-size: 98px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0;
+    -fx-padding: 10px;
+}
+.title-label:hover {
+    -fx-text-fill: #4fc3f7;
+}
+
+/* ===================== BUTTONS ===================== */
+
+.button {
+    -fx-background-color: #0f3460;
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+.button:hover {
+    -fx-background-color: #4fc3f7;
+    -fx-text-fill: #1a1a2e;
+}
+
+.button:pressed {
+    -fx-background-color: #47afde;
+    -fx-text-fill: #1a1a2e;
+}
+
+/* ===================== GRID DETAIL PANEL ===================== */
+
+/* VBox background */
+.vbox {
+    -fx-background-color: #1a1a2e;
+}
+
+/* Controls bar (HBox with dropdowns) */
+.controls-bar {
+    -fx-background-color: #16213e;
+    -fx-padding: 12px;
+    -fx-background-radius: 6px;
+}
+
+/* GridPane data display area */
+.data-grid {
+    -fx-background-color: #16213e;
+    -fx-padding: 20px;
+    -fx-background-radius: 6px;
+}
+
+/* Field name labels (Grid Code:, X:, Y: etc) */
+.field-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0;
+}
+
+/* Value labels (the — placeholders and real values) */
+.value-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #4fc3f7;
+}
+
+/* Status label at the bottom */
+.status-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #9ca3af;
+    -fx-padding: 4px;
+}
+
+/* Text field */
+.text-field {
+    -fx-background-color: #0f3460;
+    -fx-text-fill: #e0e0e0;
+    -fx-prompt-text-fill: #6b7280;
+    -fx-border-color: #2563eb;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 6px;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #0f3460;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #2563eb;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+.combo-box .list-cell {
+    -fx-text-fill: #e0e0e0;
+    -fx-background-color: #0f3460;
+}
+
+/* ===================== STATISTICS PANEL ===================== */
+
+/* Toggle bar */
+.toggle-bar {
+    -fx-padding: 13;
+    -fx-alignment: center-left;
+    -fx-background-color: #16213e;
+    -fx-background-radius: 4px;
+}
+
+/* selection-bar */
+.selection-bar {
+    -fx-alignment: center-left;
+}
+
+/* selection-box */
+.selection-box {
+    -fx-padding: 13 16 13 16;
+    -fx-background-color: #16213e;
+    -fx-alignment: center-left;
+    -fx-background-radius: 4px;
+}
+
+/* CheckBox */
+.check-box {
+    -fx-background-color: #0f3460;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #2563eb;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 6px;
+}
+
+.check-box: .box {
+    -fx-background-color: black;
+}
+
+.check-box:selected .mark {
+
+    -fx-background-color: #2563eb;
+
+}
+
+.check-box:selected .box {
+
+    -fx-background-color: #10101c;
+}
+
+/* ToggleButton */
+.toggle-button {
+    -fx-background-color: #0f3460;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #2563eb;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.toggle-button:hover {
+    -fx-background-color: #14447d;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #09203b;
+}
+
+.toggle-button:selected:hover {
+    -fx-background-color: #0c2a4d;
+}
+
+/* stat-border-pane */
+#stat-border-pane {
+    -fx-background-color: #16213e;
+    -fx-padding: 15px;
+    -fx-background-radius: 6px;
+}
+
+/* Chart background */
+.chart {
+    -fx-background-color: #0d1b2a;
+    -fx-padding: 10 0 0 0;
+}
+
+.chart-plot-background {
+    -fx-background-color: #0d1b2a;
+    -fx-padding: 20 0 0 0;
+}
+
+/* Chart title */
+.chart-title {
+    -fx-text-fill: #13b1d1;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Axis labels */
+.axis-label {
+    -fx-text-fill: #13b1d1;
+    -fx-font-size: 14px;
+}
+
+/* Grid lines */
+.chart-vertical-grid-lines {
+    -fx-stroke: #1a3a4a;
+    -fx-stroke-dash-array: 4 4;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #1a3a4a;
+    -fx-stroke-dash-array: 4 4;
+}
+
+/* The line */
+.chart-series-line {
+    -fx-stroke: #00d4ff;
+    -fx-stroke-width: 2px;
+}
+
+/* The dots on the line */
+.chart-line-symbol {
+    -fx-background-color: #00d4ff, #0d1b2a;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* ===================== MAP PANEL ===================== */
+
+/* Map Tooltip */
+.map-tooltip {
+    -fx-background-color: rgba(0,0,0,0.75);
+    -fx-text-fill: white;
+    -fx-padding: 4 8 4 8;
+    -fx-background-radius: 4;
+    -fx-font-size: 11px;
+}
+
+/* Map Toolbar Label */
+.map-toolbar-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Legend */
+.chart-legend {
+    -fx-background-color: #0d1b2a;
+}
+
+.chart-legend-item {
+    -fx-text-fill: #a0c4d8;
+}
+
+.chart-legend-item-symbol {
+    -fx-background-color: #00d4ff;
+    -fx-effect: dropshadow(gaussian, #00d4ff, 6, 0.5, 0, 0);
+}
+
+/* ===================== LIVE MAP ===================== */
+
+.mapview-label.live-hover-label {
+    color: #f7fbff;
+    background: rgba(9, 18, 30, 0.9);
+    -fx-border-color: rgba(96, 158, 255, 0.35);
+    -fx-border-width: 1px;
+    border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.28), 18, 0, 0, 8);
+    padding: 4px 7px;
+    margin-left: 12px;
+    margin-top: -4px;
+    font-size: 10.5px;
+    line-height: 1.3;
+    max-width: 172px;
+    white-space: pre-wrap;
+    pointer-events: none;
+    z-index: 9999 !important;
+}
+/* ===================== LIVE DATA PANEL ===================== */
+
+.live-panel {
+    -fx-background-color: #1a1a2e;
+}
+
+.live-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0;
+}
+
+.live-info {
+    -fx-text-fill: #b8c1cc;
+    -fx-font-size: 13px;
+}
+
+.live-value {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4fc3f7;
+}
+
+.live-status {
+    -fx-font-size: 13px;
+    -fx-text-fill: #9ca3af;
+}
