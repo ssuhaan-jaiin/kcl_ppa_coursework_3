@@ -1,2 +1,7 @@
-# kcl_ppa_coursework_3
-A JavaFX data visualisation application built for my King’s College London PPA coursework, analysing DEFRA air pollution datasets with interactive maps, statistics, alerts, and live API integration.
+# AirWatch London
+A JavaFX-based data visualisation application developed as part of my **Programming Practice & Applications (PPA)** module at **King’s College London**.
+
+The application analyses DEFRA air pollution datasets and provides interactive maps, statistical insights, and live air quality data.
+
+## 🎓 Academic Context
+This project was developed as part of the **Programming Practice & Applications (PPA)** module at **King’s College London**.
